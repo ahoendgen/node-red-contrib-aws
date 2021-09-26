@@ -4,6 +4,7 @@ module.exports = function(RED) {
         this.accessKey = this.credentials.accessKey;
         this.secretKey = this.credentials.secretKey;
 	    this.region = n.region;
+	    this.endpoint = n.endpoint;
         this.name = n.name;
         this.proxyRequired = n.proxyRequired;
         this.proxy = n.proxy;
